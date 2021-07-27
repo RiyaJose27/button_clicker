@@ -5,6 +5,8 @@ background-color:burlywood;
     display: flex;
     padding: 1em;
     margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
 
 }
 .leftnav {
@@ -14,7 +16,7 @@ background-color:burlywood;
     gap: 1.5em;
 }
 
-.button1 {
+.log {
     width :100px;
     height: 30px;
     background-color:blue;
@@ -43,7 +45,7 @@ main {
     flex: 2;
     align-self: flex-start;
 }
-.button2 {
+.button1 {
     width :100px;
     height: 30px;
     background-color:gold;
@@ -68,6 +70,16 @@ aside {
 .aside-body {
     padding: 1.5em;
 }
+.button2 {
+    width :100px;
+    height: 30px;
+    background-color: seagreen;
+    box-shadow: 5px 10px;
+    color: black;
+}
+.card-body {
+    display: inline-block;
+}
 .button3 {
     width :100px;
     height: 30px;
@@ -76,12 +88,17 @@ aside {
     color: black;
 }
 .card-body {
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
-.button4 {
-    width :100px;
-    height: 30px;
-    background-color: seagreen;
-    box-shadow: 5px 10px;
-    color: black;
+.para {
+    margin: 0 auto;
+}
+.card-body2 {
+    display: flex;
+    align-items: center;
+
+}
+.para2 {
+    margin: 0 auto;
 }
